@@ -1,0 +1,11 @@
+{
+  "name": "tweethunter_v3",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "bun run main.ts"
+  },
+  "dependencies": {
+    "tweepy": "^4.14.0",
+    "dotenv": "^16.4.0"
+  }
+}
