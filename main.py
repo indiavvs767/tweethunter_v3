@@ -3,6 +3,14 @@ import logging
 import os
 import time
 from dotenv import load_dotenv
+import time
+import logging
+
+logging.info("TweetHunter V3 started successfully")
+
+while True:
+    logging.info("Heartbeat: bot running")
+    time.sleep(300)  # every 5 minutes
 
 from autodm import send_dm
 from follower import get_new_followers
