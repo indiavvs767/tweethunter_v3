@@ -46,3 +46,7 @@ while True:
     except Exception as e:
         logging.error(e)
         time.sleep(60)
+
+if __name__ == "__main__":
+    print("TweetHunter V3 starting...")
+    main()
